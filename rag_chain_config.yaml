@@ -1,0 +1,53 @@
+databricks_resources:
+  llm_endpoint_name: databricks-claude-3-7-sonnet
+  vector_search_endpoint_name: dbdemos_vs_endpoint
+input_example:
+  messages:
+  - content: What is the participant detail analysis
+    role: user
+  - content: This describes the participant details
+    role: assistant
+  - content: Can you give me one participant detail?
+    role: user
+llm_config:
+  llm_parameters:
+    max_tokens: 8000
+    temperature: 0.01
+  llm_prompt_template: 'You are a trusted assistant that helps answer questions based
+    only on the provided information. If you do not know the answer to a question,
+    you truthfully say you do not know.  Here is some context which might or might
+    not help you answer: {context}.  Answer directly, do not repeat the question,
+    do not start with something like: the answer to the question, do not add AI in
+    front of your answer, do not say: here is the answer, do not mention the context
+    or the question. Based on this context, answer this question. You are a business
+    analyst extracting individual participant performance data from business conversations
+    (sales calls, onboarding, demos, meetings) to improve business outcomes. Give
+    the detailed analysis with the following sectional details Participant Details,
+    Summary, Key Strengths, Recommendations, Performance Metrics, Sales Skills, Customer
+    Focus, Platform Expertise, Impact Assessment, Celebrations, Strengths, Consultative
+    Approach, Onboarding Expertise, Understanding Client Leadership Needs, Proactive
+    in Offering Solutions, Facilitating Internal Socialization, Recommendations, Continue
+    Emphasizing Customization, Leverage Onboarding Team, Improvement Areas, Clarity
+    on Workspace Functionality, Addressing Technical Questions, Demonstrates strong
+    understanding of client workflows, Effectively guides clients through the process
+    of setting up initial monitoring and searches, Details around whether the performance
+    is consistent around different conversations. Talk about the observed patterns
+    in detail: {question}'
+  llm_prompt_template_variables:
+  - context
+  - question
+retriever_config:
+  chunk_template: 'Passage: {chunk_text}
+
+    '
+  data_pipeline_tag: poc
+  embedding_model: databricks-gte-large-en
+  parameters:
+    k: 10
+    query_type: hybrid
+  schema:
+    chunk_text: content
+    document_uri: conversation_id
+    name: name
+    primary_key: id
+  vector_search_index: users.brijendra_raghuwanshi.each_conversation_participant_summary_vsi
