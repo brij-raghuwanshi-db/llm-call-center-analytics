@@ -1,4 +1,4 @@
-# Sales Coaching on Databricks: Architecture Diagram Specifications
+# Sales Coaching on Databricks
 
 ## Layer-by-Layer Architecture Breakdown
 
