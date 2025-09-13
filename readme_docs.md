@@ -1,4 +1,3 @@
-%md
 ### Sales Coaching on Databricks: LLM-based Call Center Analytics
 
 This repo walks through a practical, end‑to‑end workflow to coach sales representatives using call transcripts on Databricks. It is grounded in the code and screenshots in this repository and references official docs for each Databricks capability used. This shows an approach; an art of the possible.
@@ -213,7 +212,6 @@ results = vsc.get_index(VECTOR_SEARCH_ENDPOINT_NAME, vs_index_fullname).similari
 
 Docs:
 - Vector Search overview and Python SDK — `https://docs.databricks.com/en/generative-ai/vector-search/index.html`
-- Create Delta Sync Index — `https://docs.databricks.com/en/generative-ai/vector-search/create-index.html`
 - Foundation Model APIs (e.g., `databricks-gte-large-en`) — `https://docs.databricks.com/en/generative-ai/foundation-models/index.html`
 
 ### 3.4 Retrieval‑Augmented Generation (RAG) with `databricks‑langchain` and MLflow
@@ -299,8 +297,6 @@ mlflow.models.set_model(model=chain)
 ```
 
 Docs:
-- Databricks‑LangChain SDK — `https://github.com/databricks/databricks-langchain`
-- MLflow LangChain tracking and model logging — `https://mlflow.org/docs/latest/llms/llm-tracking/langchain-tracking.html`
 - RAG on Databricks — `https://docs.databricks.com/en/generative-ai/rag/index.html`
 
 ### 3.5 Register, deploy, and review with Agents / Serving
@@ -332,9 +328,7 @@ deployment_info = agents.deploy(model_name=MODEL_NAME_FQN, model_version=uc_regi
 ```
 
 Docs:
-- MLflow on Databricks — `https://docs.databricks.com/en/machine-learning/mlflow/index.html`
 - Model Serving / Foundation Model APIs — `https://docs.databricks.com/en/generative-ai/foundation-models/index.html`
-- Databricks Agents — `https://docs.databricks.com/en/generative-ai/agents.html` and SDK `https://pypi.org/project/databricks-agents/`
 
 ---
 
@@ -376,9 +370,6 @@ SET TBLPROPERTIES ('delta.enableChangeDataFeed' = 'true');
 - Databricks Vector Search — `https://docs.databricks.com/en/generative-ai/vector-search/index.html`
 - Create/manage Vector Search indices — `https://docs.databricks.com/en/generative-ai/vector-search/create-index.html`
 - MLflow on Databricks — `https://docs.databricks.com/en/machine-learning/mlflow/index.html`
-- MLflow + LangChain tracking — `https://mlflow.org/docs/latest/llms/llm-tracking/langchain-tracking.html`
-- Databricks‑LangChain SDK — `https://github.com/databricks/databricks-langchain`
-- Databricks Agents — `https://docs.databricks.com/en/generative-ai/agents.html` and `https://pypi.org/project/databricks-agents/`
 - Unity Catalog — `https://docs.databricks.com/en/data-governance/unity-catalog/index.html`
 
 ---
