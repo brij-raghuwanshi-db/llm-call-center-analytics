@@ -1,0 +1,529 @@
+{
+  "conversation": {
+    "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+    "duration": 135000,
+    "is_api": false,
+    "platform": "salesloft",
+    "media_type": "audio",
+    "organization_id": "91950b4d-6d7e-4d1b-8dea-74c8e70b68c9",
+    "title": "Call: Marco Rossi and Sofia Ricci @ Amedeo Testoni",
+    "started_recording_at": 0,
+    "language_code": "it-IT",
+    "user_guid": "fdfc7d55-ab85-4519-ab5e-252ae6c3802f",
+    "owner_id": "fdfc7d55-ab85-4519-ab5e-252ae6c3802f",
+    "created_at": "2025-07-16T07:28:47.608Z",
+    "updated_at": "2025-07-16T07:36:54.943Z",
+    "event_end_date": "2025-07-16T07:31:02.608Z",
+    "event_start_date": "2025-07-16T07:28:47.608Z",
+    "call_id": "454402631",
+    "account": {
+      "id": "68150441",
+      "_href": "https://api.salesloft.com/v2/accounts/68150441"
+    },
+    "person": {
+      "id": "478970682",
+      "_href": "https://api.salesloft.com/v2/people/478970682"
+    },
+    "transcription": {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "_href": "https://api.salesloft.com/v2/transcriptions/183a1ba5-ee02-4c43-bdb0-a4bbf99dc816"
+    },
+    "transcription_artifact": {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "_href": "https://api.salesloft.com/v2/transcriptions/183a1ba5-ee02-4c43-bdb0-a4bbf99dc816/artifact"
+    },
+    "transcription_sentences": {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "_href": "https://api.salesloft.com/v2/transcriptions/183a1ba5-ee02-4c43-bdb0-a4bbf99dc816/sentences"
+    },
+    "recording": {
+      "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+      "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6/recording"
+    }
+  },
+  "extensiveConversation": {
+    "data": {
+      "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+      "duration": 135000,
+      "is_api": false,
+      "platform": "salesloft",
+      "media_type": "video",
+      "organization_id": "91950b4d-6d7e-4d1b-8dea-74c8e70b68c9",
+      "title": "Call: Marco Rossi and Sofia Ricci @ Amedeo Testoni",
+      "started_recording_at": 0,
+      "event_end_date": "2025-07-16T07:31:02.608Z",
+      "language_code": "it-IT",
+      "user_guid": "fdfc7d55-ab85-4519-ab5e-252ae6c3802f",
+      "owner_id": "fdfc7d55-ab85-4519-ab5e-252ae6c3802f",
+      "created_at": "2025-07-16T07:28:47.608Z",
+      "updated_at": "2025-07-16T07:36:54.943Z",
+      "event_start_date": "2025-07-16T07:28:47.608Z",
+      "call_id": "454402631",
+      "key_moments": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "name": "competitors",
+            "categories": []
+          },
+          {
+            "name": "objections",
+            "categories": []
+          },
+          {
+            "name": "decision_makers",
+            "categories": [
+              {
+                "category": "BuyingProcessAndStakeholderEngagement",
+                "mentions_count": 1,
+                "summary": "Il venditore chiede di parlare con qualcun altro del reparto comunicazione/marketing, suggerendo di provare a trovare un altro interlocutore qualora Sofia Ricci non fosse disponibile.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+                    "index_start": 13,
+                    "index_end": 13,
+                    "start_time": 103.2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "summary": {
+        "id": "8283a067-0037-4d05-816d-81edb3e1acfc",
+        "text": "Questa è una telefonata in cui Marco Rossi di Dioswire cerca Sofia Ricci di Latesttoni Spa. Marco voleva parlare con qualcuno dell'ufficio comunicazione marketing, ma Sofia Ricci è l'unica persona che si occupa di questo ruolo. Sofia è disponibile solo il lunedì e il venerdì perché lavora part-time e ha sede a Milano. Marco ha chiesto se Sofia legge le email anche quando non è in ufficio, ma l'interlocutrice non ha saputo dare una risposta precisa, pur supponendo di sì. Marco ha confermato di avere l'indirizzo email di Sofia (sofia.ricci@testtoni.com) e ha detto che le scriverà. Non sono stati discussi prezzi né progetti specifici. È stato concordato che Marco invierà una mail a Sofia Ricci.",
+        "status": "COMPLETED",
+        "created_at": "2025-07-16T07:36:23.458Z"
+      },
+      "action_items": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "id": "81b06d84-21c8-4df3-ac4d-2c5c8ab63de3",
+            "original_text": "Marco Dioswire: Inviare una mail a Sofia Ricci all'indirizzo sofia.ricci@testoni.com.",
+            "edited_text": "",
+            "created_at": "2025-07-16T07:36:22.238Z",
+            "updated_at": ""
+          }
+        ]
+      },
+      "meddpicc": {
+        "categories": []
+      },
+      "attendees": [
+        {
+          "id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+          "user_guid": "fdfc7d55-ab85-4519-ab5e-252ae6c3802f",
+          "full_name": "Marco Rossi",
+          "email": "marco.rossi+salesloftemea@imurica.com",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": true,
+          "percent_talk_time": 32.84,
+          "talk_time": 57760,
+          "external_id": "ch_0"
+        },
+        {
+          "id": "13912a13-fa0f-4571-a965-4e31551faf03",
+          "user_guid": "",
+          "full_name": "Sofia Ricci",
+          "email": "sofia.ricci@testoni.com",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": false,
+          "percent_talk_time": 67.16,
+          "talk_time": 118120,
+          "external_id": "ch_1"
+        }
+      ],
+      "invitees": [],
+      "account": {
+        "id": "68150441",
+        "_href": "https://api.salesloft.com/v2/accounts/68150441"
+      },
+      "person": {
+        "id": "478970682",
+        "_href": "https://api.salesloft.com/v2/people/478970682"
+      },
+      "transcription": {
+        "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+        "_href": "https://api.salesloft.com/v2/transcriptions/183a1ba5-ee02-4c43-bdb0-a4bbf99dc816"
+      },
+      "transcription_artifact": {
+        "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+        "_href": "https://api.salesloft.com/v2/transcriptions/183a1ba5-ee02-4c43-bdb0-a4bbf99dc816/artifact"
+      },
+      "transcription_sentences": {
+        "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+        "_href": "https://api.salesloft.com/v2/transcriptions/183a1ba5-ee02-4c43-bdb0-a4bbf99dc816/sentences"
+      },
+      "recording": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6/recording"
+      }
+    }
+  },
+  "sentences": [
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 0.6,
+      "end_time": 4.6,
+      "order_number": 0,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "Salve, risponde latesttoni Spa for English TAS one.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 4.6,
+      "end_time": 29.92,
+      "order_number": 1,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "Se volete parlare con l'amministrazione, per favore premete due, per l'ufficio spedizioni, premete tre, per l'ufficio commerciale, premete 4 per l'ufficio risorse umane, sicurezza e servizi generali, premete cinque per l'ufficio sviluppo prodotto, premete 6 per la produzione, premete 7, per l'ufficio IT premete 8, per tornare al menù principale premete nove.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 31.36,
+      "end_time": 35.32,
+      "order_number": 2,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "Salve risponde la atestoni spa for english one.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 35.32,
+      "end_time": 46.8,
+      "order_number": 3,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "Se volete parlare con l'amministrazione, per favore premete due per l'ufficio spedizioni, premete tre per l'ufficio.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 46.8,
+      "end_time": 50.2,
+      "order_number": 4,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "La stiamo collegando con il numero desiderato.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 50.2,
+      "end_time": 56.32,
+      "order_number": 5,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "Si prega di attendere.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 56.32,
+      "end_time": 59.92,
+      "order_number": 6,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "La stiamo collegando con il numero desiderato.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 62.8,
+      "end_time": 73.72,
+      "order_number": 7,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "la trova,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 63.48,
+      "end_time": 84.68,
+      "order_number": 8,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "e salve buongiorno sono marco dioswire cercavo Sofia Ricci",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 71.04,
+      "end_time": 62.8,
+      "order_number": 9,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "Sofia ricci non",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 73.72,
+      "end_time": 89.92,
+      "order_number": 10,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "la trova solo lunedì e venerdì perché ancora e sta facendo un part-time quindi la trova solo lunedì e venerdì, se vuole può mandare una una mail.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 84.68,
+      "end_time": 89.92,
+      "order_number": 11,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "ah ok la legge durante gli altri giorni?",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 90.2,
+      "end_time": 109.76,
+      "order_number": 12,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "non glielo so dire perché comunque lei di di sede a Milano, non è qua a Bologna, qua a Imola, quindi non le so dire se legge, penso di sì, perché ogni tanto lei legge le mail, anche se non è ufficio,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 103.2,
+      "end_time": 110.2,
+      "order_number": 13,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "Ok e riesco a parlare con qualcun altro dell'ufficio comunicazione marketing o è solo",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 109.76,
+      "end_time": 110,
+      "order_number": 14,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "no,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 110.2,
+      "end_time": 111.2,
+      "order_number": 15,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "Sofia",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 110,
+      "end_time": 111.64,
+      "order_number": 16,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "c'è solo lei,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 111.2,
+      "end_time": 114.04,
+      "order_number": 17,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "solo Sofia",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 111.64,
+      "end_time": 114.68,
+      "order_number": 18,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "c'è solo lei, mi dispiace,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 114.04,
+      "end_time": 116.4,
+      "order_number": 19,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "ok",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 114.68,
+      "end_time": 116.16,
+      "order_number": 20,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "ce l'ha l'indirizzo email,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 116.4,
+      "end_time": 117.28,
+      "order_number": 21,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "eh",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 116.16,
+      "end_time": 119.92,
+      "order_number": 22,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "glielo do.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 117.28,
+      "end_time": 119.92,
+      "order_number": 23,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "sì eh sì sì dovrei averlo non so se è cambiato.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 120.12,
+      "end_time": 125.36,
+      "order_number": 24,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "sofia.ricci@testtoni.com",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 123.08,
+      "end_time": 128.64,
+      "order_number": 25,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "Esatto, esatto, è proprio quello,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 125.36,
+      "end_time": 129.36,
+      "order_number": 26,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "ok, va bene, allora le scrivo,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 128.64,
+      "end_time": 129.32,
+      "order_number": 27,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "va bene,",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 129.36,
+      "end_time": 134.72,
+      "order_number": 28,
+      "recording_attendee_id": "fed808e3-9e0d-4ff0-b22a-daae19b18879",
+      "text": "la ringrazio.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    },
+    {
+      "id": "183a1ba5-ee02-4c43-bdb0-a4bbf99dc816",
+      "start_time": 129.32,
+      "end_time": 134.72,
+      "order_number": 29,
+      "recording_attendee_id": "13912a13-fa0f-4571-a965-4e31551faf03",
+      "text": "grazie, buona giornata.",
+      "conversation": {
+        "id": "4dcc47d9-0844-4d83-a704-2a8de78e63d6",
+        "_href": "https://api.salesloft.com/v2/conversations/4dcc47d9-0844-4d83-a704-2a8de78e63d6"
+      }
+    }
+  ]
+}

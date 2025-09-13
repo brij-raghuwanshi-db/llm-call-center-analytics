@@ -1,0 +1,467 @@
+{
+  "conversation": {
+    "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+    "duration": 138000,
+    "is_api": false,
+    "platform": "salesloft",
+    "media_type": "audio",
+    "organization_id": "91950b4d-6d7e-4d1b-8dea-74c8e70b68c9",
+    "title": "Call: Nathan Cooper and William Parker @ LABC",
+    "started_recording_at": 0,
+    "language_code": "en-US",
+    "user_guid": "2d6bf045-4721-427f-8850-29fa612b1257",
+    "owner_id": "2d6bf045-4721-427f-8850-29fa612b1257",
+    "created_at": "2025-07-16T10:14:32.826Z",
+    "updated_at": "2025-07-16T10:27:41.47Z",
+    "event_end_date": "2025-07-16T10:16:50.826Z",
+    "event_start_date": "2025-07-16T10:14:32.826Z",
+    "call_id": "454411890",
+    "account": {
+      "id": "66586233",
+      "_href": "https://api.salesloft.com/v2/accounts/66586233"
+    },
+    "person": {
+      "id": "456771263",
+      "_href": "https://api.salesloft.com/v2/people/456771263"
+    },
+    "transcription": {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "_href": "https://api.salesloft.com/v2/transcriptions/48084719-0c96-4a30-a4d2-4b5ba9689cf4"
+    },
+    "transcription_artifact": {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "_href": "https://api.salesloft.com/v2/transcriptions/48084719-0c96-4a30-a4d2-4b5ba9689cf4/artifact"
+    },
+    "transcription_sentences": {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "_href": "https://api.salesloft.com/v2/transcriptions/48084719-0c96-4a30-a4d2-4b5ba9689cf4/sentences"
+    },
+    "recording": {
+      "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+      "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a/recording"
+    }
+  },
+  "extensiveConversation": {
+    "data": {
+      "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+      "duration": 138000,
+      "is_api": false,
+      "platform": "salesloft",
+      "media_type": "video",
+      "organization_id": "91950b4d-6d7e-4d1b-8dea-74c8e70b68c9",
+      "title": "Call: Nathan Cooper and William Parker @ LABC",
+      "started_recording_at": 0,
+      "event_end_date": "2025-07-16T10:16:50.826Z",
+      "language_code": "en-US",
+      "user_guid": "2d6bf045-4721-427f-8850-29fa612b1257",
+      "owner_id": "2d6bf045-4721-427f-8850-29fa612b1257",
+      "created_at": "2025-07-16T10:14:32.826Z",
+      "updated_at": "2025-07-16T10:27:41.47Z",
+      "event_start_date": "2025-07-16T10:14:32.826Z",
+      "call_id": "454411890",
+      "key_moments": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "name": "competitors",
+            "categories": []
+          },
+          {
+            "name": "objections",
+            "categories": []
+          },
+          {
+            "name": "decision_makers",
+            "categories": []
+          }
+        ]
+      },
+      "summary": {
+        "id": "3b365bd0-bb5e-4b7d-8209-c7efeea13a64",
+        "text": "Nathan Cooper from imurica called LABC, seeking to speak with William Parker. Katherine at LABC indicated that William was on leave today but would return tomorrow. Nathan explained that his call was a follow-up from a previous conversation and not urgent, so he would try again tomorrow. The call concluded with Nathan thanking Katherine for her assistance and stating he would call again tomorrow.",
+        "status": "COMPLETED",
+        "created_at": "2025-07-16T10:27:22.63Z"
+      },
+      "action_items": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "id": "d7b5d6c6-3a86-4667-beab-7c6cf1bd489d",
+            "original_text": "Call William Parker tomorrow to follow up on a previous conversation.",
+            "edited_text": "",
+            "created_at": "2025-07-16T10:27:20.118Z",
+            "updated_at": ""
+          }
+        ]
+      },
+      "meddpicc": {
+        "categories": []
+      },
+      "attendees": [
+        {
+          "id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+          "user_guid": "",
+          "full_name": "William Parker",
+          "email": "william.parker@labc.co.uk",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": false,
+          "percent_talk_time": 71.72,
+          "talk_time": 106720,
+          "external_id": "ch_1"
+        },
+        {
+          "id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+          "user_guid": "2d6bf045-4721-427f-8850-29fa612b1257",
+          "full_name": "Nathan Cooper",
+          "email": "nathan.cooper+salesloftemea@imurica.com",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": true,
+          "percent_talk_time": 28.28,
+          "talk_time": 42080,
+          "external_id": "ch_0"
+        }
+      ],
+      "invitees": [],
+      "account": {
+        "id": "66586233",
+        "_href": "https://api.salesloft.com/v2/accounts/66586233"
+      },
+      "person": {
+        "id": "456771263",
+        "_href": "https://api.salesloft.com/v2/people/456771263"
+      },
+      "transcription": {
+        "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+        "_href": "https://api.salesloft.com/v2/transcriptions/48084719-0c96-4a30-a4d2-4b5ba9689cf4"
+      },
+      "transcription_artifact": {
+        "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+        "_href": "https://api.salesloft.com/v2/transcriptions/48084719-0c96-4a30-a4d2-4b5ba9689cf4/artifact"
+      },
+      "transcription_sentences": {
+        "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+        "_href": "https://api.salesloft.com/v2/transcriptions/48084719-0c96-4a30-a4d2-4b5ba9689cf4/sentences"
+      },
+      "recording": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a/recording"
+      }
+    }
+  },
+  "sentences": [
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 0.64,
+      "end_time": 5,
+      "order_number": 0,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "Welcome to LABC and the Building Safety Competents Foundation.",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 5,
+      "end_time": 25.96,
+      "order_number": 1,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "Please choose from one of the following options: for warranty: press one, member operations, press two, finance, press three, qualifications, press four, lab QMS queries press five, BSCF certification press six, events and website queries press seven.",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 25.96,
+      "end_time": 28.6,
+      "order_number": 2,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "For anything else, please press eight.",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 28.6,
+      "end_time": 35.4,
+      "order_number": 3,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "To hear this menu again, Press the star key.",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 35.4,
+      "end_time": 59.92,
+      "order_number": 4,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "Calls to this number might be recorded for training and monitoring purposes.",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 87.32,
+      "end_time": 89.92,
+      "order_number": 5,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "Good morning, labc, katherine speaking, how can I?",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 91,
+      "end_time": 96.08,
+      "order_number": 6,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "Hi, good morning, Katherine, I was looking to speak,",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 92.4,
+      "end_time": 96.04,
+      "order_number": 7,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "help, this call is being recorded, sorry about that, slight",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 96.08,
+      "end_time": 97.16,
+      "order_number": 8,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "uh, no,",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 96.04,
+      "end_time": 102.88,
+      "order_number": 9,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "delay there,",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 97.16,
+      "end_time": 107.04,
+      "order_number": 10,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "drama, I was looking to speak with William Parker, um, if he was around this morning,",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 102.88,
+      "end_time": 114.4,
+      "order_number": 11,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "i can have look, can take your name and where you're calling from please,",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 107.04,
+      "end_time": 119.92,
+      "order_number": 12,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "yeah, of course, my name is Nathan Cooper, and I'm calling from a company called imurica.",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 114.4,
+      "end_time": 124.92,
+      "order_number": 13,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "i'll keep joke uh, he is on leave today uh back tomorrow",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 124.08,
+      "end_time": 125,
+      "order_number": 14,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "back tomorrow, no",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 124.92,
+      "end_time": 126.24,
+      "order_number": 15,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "um",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 125,
+      "end_time": 127.16,
+      "order_number": 16,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "drama, i can um, it's nothing",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 126.24,
+      "end_time": 130.48,
+      "order_number": 17,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "yes",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 127.16,
+      "end_time": 131,
+      "order_number": 18,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "urgent, so i'll make note and i'll try my luck again tomorrow, it's just following on from a previous",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 130.48,
+      "end_time": 133.56,
+      "order_number": 19,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "all right",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 131,
+      "end_time": 134,
+      "order_number": 20,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "conversation, so um, but no, thank you for your help and have a good",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 133.56,
+      "end_time": 135.08,
+      "order_number": 21,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "okay",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 134,
+      "end_time": 136.24,
+      "order_number": 22,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "rest of day,",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 135.08,
+      "end_time": 136.2,
+      "order_number": 23,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "doke youtube",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 136.24,
+      "end_time": 137.24,
+      "order_number": 24,
+      "recording_attendee_id": "ba9d2ec6-2575-48be-acfa-ec01e16ecdd9",
+      "text": "cheers, thank you, bye.",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    },
+    {
+      "id": "48084719-0c96-4a30-a4d2-4b5ba9689cf4",
+      "start_time": 136.2,
+      "end_time": 137.24,
+      "order_number": 25,
+      "recording_attendee_id": "3bc26a91-8c65-4936-9b7c-a8e88a5a18e6",
+      "text": "all the best",
+      "conversation": {
+        "id": "3d4c645d-15b2-493f-a237-9d185d75a95a",
+        "_href": "https://api.salesloft.com/v2/conversations/3d4c645d-15b2-493f-a237-9d185d75a95a"
+      }
+    }
+  ]
+}

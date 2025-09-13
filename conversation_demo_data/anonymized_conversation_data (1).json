@@ -1,0 +1,529 @@
+{
+  "conversation": {
+    "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+    "duration": 126000,
+    "is_api": false,
+    "platform": "connectbase",
+    "media_type": "audio",
+    "organization_id": "af9953ff-3f82-4860-942c-89dc9f9595cc",
+    "title": "Call: Rachel Martinez and Marcus Johnson @ TechFlow Solutions",
+    "started_recording_at": 0,
+    "language_code": "en-US",
+    "user_guid": "83731b85-4cc1-4619-96bf-30332936cb9f",
+    "owner_id": "83731b85-4cc1-4619-96bf-30332936cb9f",
+    "created_at": "2025-07-16T13:45:02.237Z",
+    "updated_at": "2025-07-16T13:53:00.265Z",
+    "event_end_date": "2025-07-16T13:47:08.237Z",
+    "event_start_date": "2025-07-16T13:45:02.237Z",
+    "call_id": "92451648",
+    "account": {
+      "id": "69185071",
+      "_href": "https://api.connectbase.com/v2/accounts/69185071"
+    },
+    "person": {
+      "id": "29886434",
+      "_href": "https://api.connectbase.com/v2/people/29886434"
+    },
+    "transcription": {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "_href": "https://api.connectbase.com/v2/transcriptions/9c862fe2-a7aa-493f-9de2-d6cdca175b51"
+    },
+    "transcription_artifact": {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "_href": "https://api.connectbase.com/v2/transcriptions/9c862fe2-a7aa-493f-9de2-d6cdca175b51/artifact"
+    },
+    "transcription_sentences": {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "_href": "https://api.connectbase.com/v2/transcriptions/9c862fe2-a7aa-493f-9de2-d6cdca175b51/sentences"
+    },
+    "recording": {
+      "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+      "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432/recording"
+    }
+  },
+  "extensiveConversation": {
+    "data": {
+      "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+      "duration": 126000,
+      "is_api": false,
+      "platform": "connectbase",
+      "media_type": "video",
+      "organization_id": "af9953ff-3f82-4860-942c-89dc9f9595cc",
+      "title": "Call: Rachel Martinez and Marcus Johnson @ TechFlow Solutions",
+      "started_recording_at": 0,
+      "event_end_date": "2025-07-16T13:47:08.237Z",
+      "language_code": "en-US",
+      "user_guid": "83731b85-4cc1-4619-96bf-30332936cb9f",
+      "owner_id": "83731b85-4cc1-4619-96bf-30332936cb9f",
+      "created_at": "2025-07-16T13:45:02.237Z",
+      "updated_at": "2025-07-16T13:53:00.265Z",
+      "event_start_date": "2025-07-16T13:45:02.237Z",
+      "call_id": "92451648",
+      "key_moments": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "name": "competitors",
+            "categories": [
+              {
+                "category": "Neutral",
+                "mentions_count": 1,
+                "summary": "The client noted that 'the majority of similar platforms' (referring to alternative database services) typically provide five user licenses by default, whereas DataFlow Pro's standard package includes three user licenses.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 7,
+                    "index_end": 7,
+                    "start_time": 18
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "objections",
+            "categories": [
+              {
+                "category": "FinancialValueConcerns",
+                "mentions_count": 1,
+                "summary": "The client inquired about securing an agreement within the 4,000-4,500 range, encompassing coverage for a UK subsidiary. They sought clarification on pricing flexibility and whether the quoted price represented the absolute lowest offer.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 23,
+                    "index_end": 23,
+                    "start_time": 67
+                  },
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 25,
+                    "index_end": 25,
+                    "start_time": 68.88
+                  },
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 12,
+                    "index_end": 12,
+                    "start_time": 34.04
+                  },
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 16,
+                    "index_end": 20,
+                    "start_time": 49.6
+                  }
+                ]
+              },
+              {
+                "category": "ProductServiceConcerns",
+                "mentions_count": 1,
+                "summary": "The client expressed concerns regarding user license allocation within the package and questioned the feasibility of incorporating an additional user (a contract specialist) when required. They observed that competing services frequently offer five user licenses.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 5,
+                    "index_end": 7,
+                    "start_time": 10.36
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "decision_makers",
+            "categories": [
+              {
+                "category": "BuyingProcessAndStakeholderEngagement",
+                "mentions_count": 2,
+                "summary": "The client referenced that 'the department' had specified requirements for three users and asked about accommodating a fourth user for contract support. They also mentioned 'they' prefer conducting business through a UK entity, suggesting multiple stakeholders are involved in the decision process.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 5,
+                    "index_end": 5,
+                    "start_time": 10.36
+                  },
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 12,
+                    "index_end": 12,
+                    "start_time": 34.04
+                  },
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 16,
+                    "index_end": 18,
+                    "start_time": 49.6
+                  },
+                  {
+                    "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+                    "index_start": 20,
+                    "index_end": 20,
+                    "start_time": 53
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "summary": {
+        "id": "3ba3945c-ff02-4fc7-a6b7-e92ef981325e",
+        "text": "This represents a sales continuation discussion between Rachel from DataFlow Pro and Marcus concerning database access arrangements for his department. Rachel confirmed her ability to adjust the user allocation if they require four users rather than three. Marcus's department prefers working through a UK subsidiary and inquired about a \u00a34,500 all-inclusive rate. Rachel explained that \u00a34,500 represents the minimum price for the worldwide database, not including the UK subsidiary requirement. Marcus then requested information about the specific login portal for the DataFlow Pro database, seeking confirmation it matches their previous setup. Rachel is verifying the login credentials; she will provide updates to Marcus (seller action).",
+        "status": "COMPLETED",
+        "created_at": "2025-07-16T13:52:41.176Z"
+      },
+      "action_items": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "id": "79c9187d-10d2-447b-a35d-3ee15299477a",
+            "original_text": "Rachel to verify if they can adjust the user allocation for DataFlow Pro.",
+            "edited_text": "",
+            "created_at": "2025-07-16T13:52:40.151Z",
+            "updated_at": ""
+          },
+          {
+            "id": "8bc01ac8-bf8b-4486-88c8-31e942262817",
+            "original_text": "Rachel to verify the login portal for the DataFlow Pro database.",
+            "edited_text": "",
+            "created_at": "2025-07-16T13:52:40.151Z",
+            "updated_at": ""
+          }
+        ]
+      },
+      "meddpicc": {
+        "categories": []
+      },
+      "attendees": [
+        {
+          "id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+          "user_guid": "83731b85-4cc1-4619-96bf-30332936cb9f",
+          "full_name": "Rachel Martinez",
+          "email": "rachel.martinez+connectbaseeu@dataflowpro.com",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": true,
+          "percent_talk_time": 53.13,
+          "talk_time": 116320,
+          "external_id": "ch_1"
+        },
+        {
+          "id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+          "user_guid": "",
+          "full_name": "Marcus Johnson",
+          "email": "marcus@marcusjohnson.com",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": false,
+          "percent_talk_time": 46.87,
+          "talk_time": 102600,
+          "external_id": "ch_0"
+        }
+      ],
+      "invitees": [],
+      "account": {
+        "id": "69185071",
+        "_href": "https://api.connectbase.com/v2/accounts/69185071"
+      },
+      "person": {
+        "id": "29886434",
+        "_href": "https://api.connectbase.com/v2/people/29886434"
+      },
+      "transcription": {
+        "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+        "_href": "https://api.connectbase.com/v2/transcriptions/9c862fe2-a7aa-493f-9de2-d6cdca175b51"
+      },
+      "transcription_artifact": {
+        "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+        "_href": "https://api.connectbase.com/v2/transcriptions/9c862fe2-a7aa-493f-9de2-d6cdca175b51/artifact"
+      },
+      "transcription_sentences": {
+        "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+        "_href": "https://api.connectbase.com/v2/transcriptions/9c862fe2-a7aa-493f-9de2-d6cdca175b51/sentences"
+      },
+      "recording": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432/recording"
+      }
+    }
+  },
+  "sentences": [
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 2.4,
+      "end_time": 5.48,
+      "order_number": 0,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "Good morning,",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 4.48,
+      "end_time": 7.28,
+      "order_number": 1,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "hey, this is Mark,",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 5.48,
+      "end_time": 8.2,
+      "order_number": 2,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "hi Marcus, how are you doing?",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 7.28,
+      "end_time": 10.36,
+      "order_number": 3,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "I'm well,",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 8.2,
+      "end_time": 17,
+      "order_number": 4,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "Great, thanks for asking.",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 10.36,
+      "end_time": 18,
+      "order_number": 5,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "perfect, I have two items to discuss, first, um, the department has requested, clearly there are three users included, so if for any",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 17,
+      "end_time": 27.64,
+      "order_number": 6,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "Absolutely,",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 18,
+      "end_time": 29.92,
+      "order_number": 7,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "situation where we require four users because we hire an additional contractor for assistance or similar, would that be an option you can provide, since I understand the majority of these services include around five user licenses.",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 27.64,
+      "end_time": 29.92,
+      "order_number": 8,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "certainly, let me review...",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 30.24,
+      "end_time": 33.8,
+      "order_number": 9,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "Actually, I can definitely adjust that arrangement for you",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 33.08,
+      "end_time": 34.04,
+      "order_number": 10,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "Perfect and",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 33.8,
+      "end_time": 44.24,
+      "order_number": 11,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "-",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 34.04,
+      "end_time": 48.64,
+      "order_number": 12,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "secondly um they prefer to process it through a UK entity but then they're wondering if there's a possibility you could manage like four thousand five hundred inclusive of that or would that be completely unfeasible?",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 44.24,
+      "end_time": 48,
+      "order_number": 13,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "apologies, you're breaking up a bit, could you say that again please?",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 48.64,
+      "end_time": 49.6,
+      "order_number": 14,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "I need to",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 48,
+      "end_time": 51.72,
+      "order_number": 15,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "pardon,",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 57.12,
+      "end_time": 59.92,
+      "order_number": 21,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "um, regrettably not, I'm afraid four.",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 60.36,
+      "end_time": 67.04,
+      "order_number": 22,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "thousand five hundred is the rock-bottom price we can offer for the um worldwide database so it would be a matter of",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 94.12,
+      "end_time": 101.44,
+      "order_number": 38,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "such as the DataFlow Pro database what would it be would it be something like eu-portal.dataflowpro.com would it be global what exactly is the login address?",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 101.44,
+      "end_time": 102.04,
+      "order_number": 39,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "I just want to confirm",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 102.04,
+      "end_time": 110.12,
+      "order_number": 41,
+      "recording_attendee_id": "5a729e79-b4b7-43f4-8b93-4139b85b5bc6",
+      "text": "it matches what we used previously.",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 102.36,
+      "end_time": 110.16,
+      "order_number": 42,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "you would be um you would be simply logging into uh let me just verify give me a moment please as I'm",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    },
+    {
+      "id": "9c862fe2-a7aa-493f-9de2-d6cdca175b51",
+      "start_time": 110.16,
+      "end_time": 119.92,
+      "order_number": 44,
+      "recording_attendee_id": "d69133fa-ee6f-492c-9be0-e9f58ac07b42",
+      "text": "a moment",
+      "conversation": {
+        "id": "f1a1234e-031c-42b8-a80a-ae9a74c77432",
+        "_href": "https://api.connectbase.com/v2/conversations/f1a1234e-031c-42b8-a80a-ae9a74c77432"
+      }
+    }
+  ]
+}

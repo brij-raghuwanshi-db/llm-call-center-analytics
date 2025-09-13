@@ -1,0 +1,665 @@
+{
+  "conversation": {
+    "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+    "duration": 186000,
+    "is_api": false,
+    "platform": "salesloft",
+    "media_type": "audio",
+    "organization_id": "91950b4d-6d7e-4d1b-8dea-74c8e70b68c9",
+    "title": "Call: Olivia Harrison and Victoria Martinez Rodriguez @ OneAdvanced",
+    "started_recording_at": 0,
+    "language_code": "en-US",
+    "user_guid": "b795bf9d-c161-44b4-a7b8-105f1c55619d",
+    "owner_id": "b795bf9d-c161-44b4-a7b8-105f1c55619d",
+    "created_at": "2025-07-17T14:17:10.316Z",
+    "updated_at": "2025-07-17T14:30:14.695Z",
+    "event_end_date": "2025-07-17T14:20:16.316Z",
+    "event_start_date": "2025-07-17T14:17:10.316Z",
+    "call_id": "454592013",
+    "person": {
+      "id": "469163046",
+      "_href": "https://api.salesloft.com/v2/people/469163046"
+    },
+    "transcription": {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "_href": "https://api.salesloft.com/v2/transcriptions/6e95596f-454f-4cdf-8e73-194cd0796956"
+    },
+    "transcription_artifact": {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "_href": "https://api.salesloft.com/v2/transcriptions/6e95596f-454f-4cdf-8e73-194cd0796956/artifact"
+    },
+    "transcription_sentences": {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "_href": "https://api.salesloft.com/v2/transcriptions/6e95596f-454f-4cdf-8e73-194cd0796956/sentences"
+    },
+    "recording": {
+      "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+      "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4/recording"
+    }
+  },
+  "extensiveConversation": {
+    "data": {
+      "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+      "duration": 186000,
+      "is_api": false,
+      "platform": "salesloft",
+      "media_type": "video",
+      "organization_id": "91950b4d-6d7e-4d1b-8dea-74c8e70b68c9",
+      "title": "Call: Olivia Harrison and Victoria Martinez Rodriguez @ OneAdvanced",
+      "started_recording_at": 0,
+      "event_end_date": "2025-07-17T14:20:16.316Z",
+      "language_code": "en-US",
+      "user_guid": "b795bf9d-c161-44b4-a7b8-105f1c55619d",
+      "owner_id": "b795bf9d-c161-44b4-a7b8-105f1c55619d",
+      "created_at": "2025-07-17T14:17:10.316Z",
+      "updated_at": "2025-07-17T14:30:14.695Z",
+      "event_start_date": "2025-07-17T14:17:10.316Z",
+      "call_id": "454592013",
+      "key_moments": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "name": "competitors",
+            "categories": [
+              {
+                "category": "Neutral",
+                "mentions_count": 1,
+                "summary": "The buyer is asked if they are currently using platforms such as Meltwater or Rox. This is a neutral inquiry to understand the buyer's current solutions.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+                    "index_start": 12,
+                    "index_end": 12,
+                    "start_time": 34.56
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "objections",
+            "categories": [
+              {
+                "category": "FinancialValueConcerns",
+                "mentions_count": 3,
+                "summary": "The buyer is primarily concerned with the cost of the imurica media database and wants to know the exact pricing without a demo. The buyer inquires about the cost of the media database and expresses a need to find out the costs for the imurica media database. The buyer also asks about the average cost mentioned by the seller.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+                    "index_start": 7,
+                    "index_end": 7,
+                    "start_time": 9.92
+                  },
+                  {
+                    "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+                    "index_start": 15,
+                    "index_end": 15,
+                    "start_time": 47.28
+                  },
+                  {
+                    "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+                    "index_start": 18,
+                    "index_end": 18,
+                    "start_time": 76.52
+                  },
+                  {
+                    "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+                    "index_start": 20,
+                    "index_end": 20,
+                    "start_time": 82.64
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "decision_makers",
+            "categories": [
+              {
+                "category": "TimingAnddecisionWindow",
+                "mentions_count": 1,
+                "summary": "Victoria proposes a specific time for a demo, indicating her availability and potentially a timeframe for moving forward.",
+                "mentions": [
+                  {
+                    "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+                    "index_start": 26,
+                    "index_end": 27,
+                    "start_time": 130.2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "summary": {
+        "id": "16658de8-3adf-4165-a434-ba7775426281",
+        "text": "This is a sales call between Olivia from imurica and Victoria, who is inquiring about the cost of imurica's UK media database. Olivia explained the database typically costs between £4,000 to £8,000 per year, but pricing varies because imurica tailors packages to each customer. Olivia offered to connect Victoria with a product specialist for a demo and a tailored package quote. Victoria expressed interest in this next step, finding the proposal agreeable. Victoria then provided availability on Friday the 25th from 12 to 2 for the demo. Olivia will coordinate with a product specialist and send Victoria a meeting invite for the demo; Victoria can add relevant colleagues to the meeting.",
+        "status": "COMPLETED",
+        "created_at": "2025-07-17T14:29:34.379Z"
+      },
+      "action_items": {
+        "status": "COMPLETED",
+        "items": [
+          {
+            "id": "2b51bcd5-d4c0-426a-baac-5dedbe1a38df",
+            "original_text": "Olivia Harrison will pass Victoria Martinez Rodriguez's details to a imurica product specialist.",
+            "edited_text": "",
+            "created_at": "2025-07-17T14:29:15.246Z",
+            "updated_at": ""
+          },
+          {
+            "id": "bfdb2f03-6ea0-4b10-a8fc-7ba08dcd40f9",
+            "original_text": "Olivia Harrison will send Victoria Martinez Rodriguez a meeting invite for a demo on Friday the 25th from 12 to 2.",
+            "edited_text": "",
+            "created_at": "2025-07-17T14:29:15.246Z",
+            "updated_at": ""
+          },
+          {
+            "id": "e636fd19-0995-478b-85cc-5e658dc0bb03",
+            "original_text": "Victoria Martinez Rodriguez will add anyone relevant to the demo invite.",
+            "edited_text": "",
+            "created_at": "2025-07-17T14:29:15.246Z",
+            "updated_at": ""
+          }
+        ]
+      },
+      "meddpicc": {
+        "categories": []
+      },
+      "attendees": [
+        {
+          "id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+          "user_guid": "",
+          "full_name": "Victoria Martinez Rodriguez",
+          "email": "victoria.martinez@oneadvanced.com",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": false,
+          "percent_talk_time": 44.27,
+          "talk_time": 132160,
+          "external_id": "ch_1"
+        },
+        {
+          "id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+          "user_guid": "b795bf9d-c161-44b4-a7b8-105f1c55619d",
+          "full_name": "Olivia Harrison",
+          "email": "olivia.harrison+salesloftemea@imurica.com",
+          "phone_number": "",
+          "auto_generated": false,
+          "is_internal": true,
+          "percent_talk_time": 55.73,
+          "talk_time": 166400,
+          "external_id": "ch_0"
+        }
+      ],
+      "invitees": [],
+      "person": {
+        "id": "469163046",
+        "_href": "https://api.salesloft.com/v2/people/469163046"
+      },
+      "transcription": {
+        "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+        "_href": "https://api.salesloft.com/v2/transcriptions/6e95596f-454f-4cdf-8e73-194cd0796956"
+      },
+      "transcription_artifact": {
+        "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+        "_href": "https://api.salesloft.com/v2/transcriptions/6e95596f-454f-4cdf-8e73-194cd0796956/artifact"
+      },
+      "transcription_sentences": {
+        "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+        "_href": "https://api.salesloft.com/v2/transcriptions/6e95596f-454f-4cdf-8e73-194cd0796956/sentences"
+      },
+      "recording": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4/recording"
+      }
+    }
+  },
+  "sentences": [
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 0.76,
+      "end_time": 3.48,
+      "order_number": 0,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "hello,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 1.64,
+      "end_time": 4.72,
+      "order_number": 1,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Hi, is that Victoria?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 3.48,
+      "end_time": 4.12,
+      "order_number": 2,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "that's me",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 4.72,
+      "end_time": 5.36,
+      "order_number": 3,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Hi, Victoria,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 4.12,
+      "end_time": 9.92,
+      "order_number": 4,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "yet,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 5.36,
+      "end_time": 7.04,
+      "order_number": 5,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "it's Caddy, calling from imurica.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 7.04,
+      "end_time": 17,
+      "order_number": 6,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "How are you doing?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 9.92,
+      "end_time": 22.92,
+      "order_number": 7,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "good, yeah, um, i was looking to inquire on the cost of the media database,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 17,
+      "end_time": 24.32,
+      "order_number": 8,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Yeah, um, what, um, is that for global or UK?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 22.92,
+      "end_time": 29.92,
+      "order_number": 9,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "uk?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 24.32,
+      "end_time": 29.92,
+      "order_number": 10,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Okay, um, and then are you currently using any other platform providers at all?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 32.04,
+      "end_time": 39.08,
+      "order_number": 11,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "uh other platform providers",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 34.56,
+      "end_time": 41.6,
+      "order_number": 12,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "are you using um a melt water or rock so are you are you currently using any?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 39.08,
+      "end_time": 47.28,
+      "order_number": 13,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "inclusive where",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 41.6,
+      "end_time": 55.04,
+      "order_number": 14,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "okay and um how you find the conclusive?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 47.28,
+      "end_time": 59.92,
+      "order_number": 15,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "no, i don't want to, i just need to find out what the costs are for imurica media database uh and that's it.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 55.04,
+      "end_time": 59.92,
+      "order_number": 16,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "okay cool um so for for our platform uh the...",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 60.28,
+      "end_time": 78.16,
+      "order_number": 17,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "database normally runs between um four to to 8k uh per year, that can be paid a monthly um quarterly or yearly basis um is that something that's within your budget",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 76.52,
+      "end_time": 82.64,
+      "order_number": 18,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "How much did you say,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 78.16,
+      "end_time": 85.32,
+      "order_number": 19,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "um 4 to 8k average",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 82.64,
+      "end_time": 89.92,
+      "order_number": 20,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "and what is this average about?",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 85.32,
+      "end_time": 119.92,
+      "order_number": 21,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "so because because our platform is very advanced we we do have slight different changes um and when we when we provide the package we um tailor it to the customer as much as we possibly can so we don't have um sort of a one one size fits all all model here um what i what i could do victoria is i could pass on your details to one of our product specialists um they could give you um demo call and then they could send you over package if you're interested in doing that",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 119.6,
+      "end_time": 119.92,
+      "order_number": 22,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "Yeah.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 120.16,
+      "end_time": 130.2,
+      "order_number": 23,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "Sounds good,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 121.04,
+      "end_time": 123,
+      "order_number": 24,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Yeah, okay, no worries.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 123,
+      "end_time": 149.92,
+      "order_number": 25,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "When um, do you have um, your diary to handus so I can get some times when you might be free.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 130.2,
+      "end_time": 149.92,
+      "order_number": 26,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "yeah, let me check quickly, one section, so I'd say let's try aim for maybe from.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 151.84,
+      "end_time": 179.6,
+      "order_number": 27,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "Maybe Friday the 25th from 12 to two,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 160.04,
+      "end_time": 162.36,
+      "order_number": 28,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Yeah, that should be totally fine.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 162.36,
+      "end_time": 170.8,
+      "order_number": 29,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "What I'll do now is I will go and talk to my uh product specialists and then I'll send you over a meeting invite for the demo.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 170.8,
+      "end_time": 179.92,
+      "order_number": 30,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Um, feel free to add anyone else to that demo that that might be relevant to the conversation or or you want them to have visibility of the platform.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 179.6,
+      "end_time": 179.92,
+      "order_number": 31,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "perfect.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 180.6,
+      "end_time": 182.12,
+      "order_number": 32,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Amazing,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 181.4,
+      "end_time": 183.56,
+      "order_number": 33,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "Thank you,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 182.12,
+      "end_time": 184.48,
+      "order_number": 34,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "Victoria,",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 183.56,
+      "end_time": 184.96,
+      "order_number": 35,
+      "recording_attendee_id": "4b05eb5a-49cc-4085-8c03-e312b3a6a091",
+      "text": "bye.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    },
+    {
+      "id": "6e95596f-454f-4cdf-8e73-194cd0796956",
+      "start_time": 184.48,
+      "end_time": 184.96,
+      "order_number": 36,
+      "recording_attendee_id": "3a7c42e6-0acf-4b56-a744-7f226ca20395",
+      "text": "bye.",
+      "conversation": {
+        "id": "1ac3da8d-6a5e-4055-831f-a9ca8bb540f4",
+        "_href": "https://api.salesloft.com/v2/conversations/1ac3da8d-6a5e-4055-831f-a9ca8bb540f4"
+      }
+    }
+  ]
+}
