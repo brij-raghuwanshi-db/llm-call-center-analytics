@@ -1,4 +1,4 @@
-# Sales Coaching on Databricks
+# Sales Coaching (Call Center Analytics) on Databricks
 
 ## Layer-by-Layer Architecture Breakdown
 
@@ -168,5 +168,4 @@ MLflow Registry → Agents Deployment → Production API
 - **Impact**: 95% time reduction, consistent evaluation, real-time insights
 
 ## Similar Use Cases (Add your use cases that fit the bill)
-- Call Center Analytics
 - Earning calls Analytics
